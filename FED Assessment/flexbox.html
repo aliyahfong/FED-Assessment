@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .product-container > div {
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+      }
+
+      .product-item-left {
+        background-color: #f1f1f1;
+        padding: 10px;
+        flex: 50%;
+      }
+
+      .product-item-right {
+        background-color: #CFFFDC;
+        padding: 10px;
+        flex: 50%;
+      }
+
+      /* Responsive layout - makes a one column-layout instead of two-column layout */
+      @media (max-width: 800px) {
+        .product-container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="product-container">
+      <div class="product-item-left">
+        <img
+          class="bergamot"
+          src="images/bergamot.jpg"
+          alt="bergamot-img"
+          width="250"
+          height="250"
+        />
+        <p>Bergamot</p>
+        <p>RM 60.00</p>
+        <button class="Bergamot order">Order</button>
+      </div>
+
+      <div class="product-item-right">
+        <img
+          class="ylang"
+          src="images/ylang ylang.jpg"
+          alt="ylangylang-img"
+          width="250"
+          height="250"
+        />
+        <p>Ylang Ylang</p>
+        <p>RM 50.00</p>
+        <button class="Ylangylang order">Order</button>
+      </div>
+
+      <div class="product-item-left">
+        <img
+          class="rosemary"
+          src="images/rosemary.jpg"
+          alt="rosemary-img"
+          width="250"
+          height="250"
+        />
+        <p>Rosemary</p>
+        <p>RM 40.00</p>
+        <button class="Rosemary order">Order</button>
+      </div>
+
+      <div class="product-item-right">
+        <img
+          class="lemongrass"
+          src="images/lemongrass.jpg"
+          alt="lemongrass-img"
+          width="250"
+          height="250"
+        />
+        <p>Lemongrass</p>
+        <p>RM 50.00</p>
+        <button class="Lemongrass order">Order</button>
+      </div>
+      <!--2nd row items-->
+<!--div class = "product-container2"-->
+      <div class="product-item-left">
+        <img
+          class="cinnamon"
+          src="images/cinnamon.jpg"
+          alt="cinnamon-img"
+          width="250"
+          height="250"
+        />
+        <p>Cinnamon</p>
+        <p>RM 50.00</p>
+        <button class="Cinnamon order">Order</button>
+      </div>
+
+      <div class="product-item-right">
+        <img
+          class="peppermint"
+          src="images/peppermint.jpg"
+          alt="peppermint-img"
+          width="250"
+          height="250"
+        />
+        <p>Peppermint</p>
+        <p>RM 40.00</p>
+        <button class="Peppermint order">Order</button>
+      </div>
+
+      <div class="product-item-left">
+        <img
+          class="clarity"
+          src="images/clarity.jpg"
+          alt="peppermint-img"
+          width="250"
+          height="250"
+        />
+        <p>Clarity</p>
+        <p>RM 50.00</p>
+        <button class="Clarity order">Order</button>
+      </div>
+
+      <div class="product-item-right">
+        <img
+          class="balance"
+          src="images/balance.jpg"
+          alt="balance-img"
+          width="250"
+          height="250"
+        />
+        <p>Balance</p>
+        <p>RM 50.00</p>
+        <button class="Balance order">Order</button>
+      </div>
+    </div>
+</div>
+  </body>
+</html>
